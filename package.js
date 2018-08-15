@@ -1,8 +1,8 @@
 Package.describe({
   summary: "Authorization package for Meteor",
-  version: "1.2.14",
-  git: "https://github.com/alanning/meteor-roles.git",
-  name: "alanning:roles"
+  version: "2.0.0",
+  git: "https://github.com/modweb/meteor-roles.git",
+  name: "modweb:roles"
 });
 
 Package.onUse(function (api) {
@@ -34,7 +34,7 @@ Package.onTest(function (api) {
 
   // `accounts-password` is included so `Meteor.users` exists
 
-  api.use(['alanning:roles',
+  api.use(['modweb:roles',
            'accounts-password',
            'underscore',
            'mongo',
