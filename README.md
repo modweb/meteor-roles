@@ -1,6 +1,8 @@
 meteor-roles
 ============
 
+# PLEASE NOTE: the published version of this package is the v2.0 branch
+
 Authorization package for Meteor - compatible with built-in accounts package.
 
 <br />
